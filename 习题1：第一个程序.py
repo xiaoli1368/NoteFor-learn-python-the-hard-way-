@@ -20,7 +20,7 @@ print("")
 
 # 2.让你的脚本只打印一行
 print("Hello World!", end="")
-print("Hello Again",end="")
+print("Hello Again", end="")
 # 这里print前边有空格会报错，注意
 
 # “#”号的作用就是注释
