@@ -19,7 +19,7 @@
 
 ## 习题0：准备工作
 
-本节主要内容是Python环境的配置，当前我所使用的是Window环境，所需要的软件有：
+本节主要内容是**Python环境的配置**，当前我所使用的是Window环境，所需要的软件有：
 
 - windown10 1809
 - Python 3.6.4
@@ -31,6 +31,19 @@
 - 去[官网](https://code.visualstudio.com/)下载VsCode并安装，下载Python插件并配置
 - 测试代码
 
+使用CMD运行python的结果如下：
+
+```python
+Microsoft Windows [版本 6.1.7601]
+版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+C:\Users\Administrator>python
+Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Ana
+conda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
 这里需要注意的一些技巧：
 
 1. 使用命令行CMD以及PowerShell
@@ -41,6 +54,55 @@
 ## 习题1：第一个程序
 
 本节主要内容是使用print函数打印字符串
+
+代码如下：
+
+```python
+print("Hello World!")
+print("Hello Again")
+print("I like typing this.")
+print("This is fun.")
+print("Yay! Printing.")
+print("I'd much rather you 'not'.")
+print("I 'd said do not touch this.")
+
+# 一些常见的错误
+# SyntaxError 语法错误
+
+# 输出中文的一些测试
+# --coding:utf-8--
+print("你好，世界！")
+# 果真中文的编码问题很大啊
+
+# 加分习题
+# 1.让你的脚本多打印一行，这是什么意思啊？
+print("")
+
+# 2.让你的脚本只打印一行
+print("Hello World!", end="")
+print("Hello Again", end="")
+# 这里print前边有空格会报错，注意
+
+# “#”号的作用就是注释
+```
+
+结果如下：
+
+```python
+'''
+
+'''
+```
+
+
+
+
+
+
+
+
+
+
 
 ```python
 print(...)
