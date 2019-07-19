@@ -13,7 +13,7 @@ print("Is it greater?", 5 >- 2)
 print("Is it greater or equal?", 5 <= 2)
 print("Is it less or equal?", 5 <= -2)
 
-# 加分析题
+# 加分习题
 # 1.给每一行进行注释
 # 2.利用命令行的方式运行每一行，把Python当做计算器玩儿玩儿
 # 3.自己找一个想要计算的东西，利用.py文件计算出来

@@ -1,5 +1,5 @@
 # 现在要键入更多的变量并且把他们打印出来
-# 这里我们将使用一个叫“格式化字符串（format string）”的东i
+# 这里我们将使用一个叫“格式化字符串（format string）”的东西
 
 my_name = 'Zed A. Shaw'
 my_age = 35 # not a lie

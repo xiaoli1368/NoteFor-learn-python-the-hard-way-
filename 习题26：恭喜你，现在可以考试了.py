@@ -116,7 +116,7 @@ def sort_words(words):
     """Sorts the words."""
     return(sorted(words))
 
-def print_first_word(words)
+def print_first_word(words):
     """Prints the first word after popping it off."""
     word = words.pop(0)
     print(word)
@@ -193,5 +193,5 @@ print_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 # prin sorted_words
 
-print_irst_and_last(sentence)
-print_first_a_last_sorted(senence)
+print_first_and_last(sentence)
+print_first_and_last_sorted(senence)
