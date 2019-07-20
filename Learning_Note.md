@@ -234,8 +234,8 @@ Is it less or equal? False
 **注意：**
 
 - 注意区分单除号和双除号的区别
-
 - 双除号表示向下取整，精度保持一致
+- 运算顺序
 
 
 
@@ -796,6 +796,7 @@ print("Your third variable is:", third)
 **关键技巧：**
 
 - 掌握从命令行来将参数传递给脚本
+- sys库中的argv
 
 
 
@@ -903,6 +904,7 @@ t.read()
 **关键技巧：**
 
 - 关于open函数的使用，可以查看帮助文档，巨详细
+- 关于read函数
 
 
 
@@ -1776,6 +1778,15 @@ print_first_and_last_sorted(senence)
 - 掌握基本的逻辑关系
 - 这一小节没有代码
 
+**关键技巧：**（掌握常见的逻辑关系）
+
+- 与或非
+- 等于，不等于
+- 大于，小于，大于等于，小于等于
+- 真，假
+
+
+
 
 
 ## 习题28：布尔表达式练习
@@ -1813,7 +1824,7 @@ not ("testing" == "testing" and "Zed" == "Cool Guy"), 			# 1
 print(test)
 ```
 
-结果如下：
+**结果如下：**
 
 ```python
 [True, False, False, True, True, True, False, True, False, False, True, False, True, False, False, False, True, True, False, False]
@@ -2404,6 +2415,7 @@ start()
 **主要内容：**
 
 - 设置一个分支类型的文字游戏
+- 这个可以跳过了
 
 
 
@@ -2424,6 +2436,7 @@ start()
 **主要内容：**
 
 - 阅读代码
+- 这个也是暂时跳过了
 
 
 
@@ -2516,6 +2529,12 @@ Corn
 Apples Oranges Crows Telephone Light Sugar Boy Gril Banana
 Telephone#Light
 ```
+
+关键技巧：
+
+- 关于列表的一些函数
+- append，pop
+- 使用joiin来连接字符串
 
 
 
@@ -2864,6 +2883,7 @@ a_game.play()
 ## 习题43：你来制作一个游戏
 
 - 略
+- 以下就都省略了，等以后有时间再刷的时候来补一遍吧
 
 
 
@@ -2936,47 +2956,3 @@ a_game.play()
 ## Indices and tables
 
 - 略
-
-
-
-## 一些小技巧
-
-1. 逗号后面必加空格
-2. 运算符前后必加空格
-3. 变量命名，驼峰准则
-4. 源代码先写注释
-5. 代码块之间以两个空格为分隔，单个代码块之间以单个空格为分隔
-6. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
